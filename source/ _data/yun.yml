@@ -5,4 +5,19 @@ avatar:
 colors:
   primary: pink
 banner: 
-  title: 多多酱的部落格
+  title: 多酱的部落格
+  author: 多々
+
+bg_image:
+  enable: true
+  url: /images/orangewater.webp
+  blur: 40px
+  
+fireworks:
+  enable: true
+  colors:
+    - "240, 175, 79"
+    - "245, 132, 237"
+    - "245, 152, 229"
+    # - '3, 28, 95'
+    # - '0, 8, 55'
