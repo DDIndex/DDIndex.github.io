@@ -122,14 +122,14 @@ body::before {
   height: 100%;
   z-index: -1;
   opacity: 0.8;
-  background-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg");
+  background-image: url("/images/orangewater.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: bgFadeIn;
   animation-duration: 2s;
-  filter: blur(30px);
+  filter: blur(40px);
 }
 @-moz-keyframes bgFadeIn {
   from {
@@ -666,6 +666,10 @@ body::before {
   background-color: #fafbfc;
   list-style: none;
 }
+.tag-name {
+  padding-left: 0.1rem;
+  padding-right: 0.2rem;
+}
 #say {
   display: block;
   text-align: center;
@@ -880,28 +884,6 @@ body::before {
   display: inline-flex;
   justify-content: flex-end;
 }
-.post-card-tag,
-.post-card-category {
-  font-size: 0.8rem;
-}
-.post-card-tag span,
-.post-card-category span {
-  color: var(--text-color, #000);
-  letter-spacing: 1px;
-}
-.post-card-tag span:hover,
-.post-card-category span:hover {
-  text-shadow: 0 0 1px var(--text-color, #000);
-}
-.post-card-tag .icon,
-.post-card-category .icon {
-  width: 0.8rem;
-  height: 0.8rem;
-}
-.post-card .tag-name {
-  padding-left: 0.1rem;
-  padding-right: 0.2rem;
-}
 .post-card img {
   margin: 0.5rem;
   max-width: 92%;
@@ -923,6 +905,24 @@ body::before {
   width: 2rem;
   height: 2rem;
   margin-bottom: -0.2rem;
+}
+.tag,
+.category {
+  font-size: 0.8rem;
+}
+.tag span,
+.category span {
+  color: var(--text-color, #000);
+  letter-spacing: 1px;
+}
+.tag span:hover,
+.category span:hover {
+  text-shadow: 0 0 1px var(--text-color, #000);
+}
+.tag .icon,
+.category .icon {
+  width: 0.8rem;
+  height: 0.8rem;
 }
 .post-collapse {
   position: relative;
@@ -1326,7 +1326,6 @@ td {
 .hamburger-inner {
   display: block;
   top: 50%;
-  margin-top: 2px/-2;
 }
 .hamburger-inner,
 .hamburger-inner::before,
@@ -1336,9 +1335,6 @@ td {
   background-color: #ffc0cb;
   border-radius: 3px;
   position: absolute;
-  transition-property: transform;
-  transition-duration: 0.15s;
-  transition-timing-function: ease;
 }
 .hamburger-inner::before,
 .hamburger-inner::after {
