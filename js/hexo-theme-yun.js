@@ -1,5 +1,8 @@
 // wrap
-document.addEventListener("DOMContentLoaded", function() {
+function initPage() {
+  if (typeof ScrollReveal !== "undefined") {
+    ScrollReveal().reveal(".post-card");
+  }
   Yun.utils.wrapImage();
   Yun.utils.embeddedVideoTransformer();
 
@@ -32,6 +35,6 @@ document.addEventListener("DOMContentLoaded", function() {
       passive: true
     }
   );
+}
 
-  ScrollReveal().reveal(".post-card");
-});
+document.addEventListener("DOMContentLoaded", initPage);
