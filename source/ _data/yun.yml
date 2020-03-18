@@ -10,14 +10,14 @@ banner:
 
 bg_image:
   enable: true
-  url: /images/orangewater.webp
+  url: /images/orangewater.jpg
   blur: 40px
   
 fireworks:
   enable: true
   colors:
-    - "240, 175, 79"
-    - "245, 132, 237"
+    - "243, 200, 125"
+    - "245, 164, 237"
     - "245, 152, 229"
     # - '3, 28, 95'
     # - '0, 8, 55'
