@@ -13,6 +13,10 @@ bg_image:
   url: /images/orangewater.jpg
   blur: 40px
   
+about:
+  path: source/about/index.md
+  icon: icon-information-line
+
 fireworks:
   enable: true
   colors:
@@ -21,3 +25,4 @@ fireworks:
     - "245, 152, 229"
     # - '3, 28, 95'
     # - '0, 8, 55'
+
