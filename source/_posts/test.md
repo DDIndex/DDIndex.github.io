@@ -6,6 +6,6 @@ aplayer: true
 ---
 
 
-123
+i give up
 
-{% aplayer "Test" "me" "/Test123.mp3" %}
+{% aplayer "Test" "me" "Test123.mp3" %}
