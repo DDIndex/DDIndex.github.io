@@ -2,9 +2,6 @@
 title: Vote for Primaries.
 date: 2020-03-17 21:33:37
 tags: 
-    - Life
-    - Election
-    - Coronavirus
 ---
 
 肺炎期间，许多州都取消了了民主党初选。但是身为民主党党员的我还是冒着生命危险去给Joe Biden投了一票。
