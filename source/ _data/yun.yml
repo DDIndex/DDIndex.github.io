@@ -26,3 +26,4 @@ fireworks:
     # - '3, 28, 95'
     # - '0, 8, 55'
 
+say: false
